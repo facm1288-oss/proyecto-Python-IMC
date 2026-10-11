@@ -4,7 +4,7 @@ nombre = input('ingresa tu nombre: ') #string
 apellido_paterno = input('ingresa tu apellido paterno: ') #string
 apellido_materno = input('ingresa tu apellido materno: ') #string
 
-# captura de datos en input() y covercion de tipo ( casting )
+# captura de datos en input() y conversion de tipo ( casting )
 
 edad = int(input('ingresa tu edad:(ej. 38) '))
 peso = float(input('ingresa tu peso en kg:(ej.70)'))
