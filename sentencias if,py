@@ -1,0 +1,55 @@
+# animal = input('dime un animal : ')
+# if animal== 'perro': 
+#     print('guau guau')
+#     print('conozco ese animal')
+    
+# animal= input('dime otro animal :')
+# if animal== 'oveja':
+#         print('beee beee')
+#         print('conozco ese animal')
+        
+# animal= input('dieme otro animal : ')
+# if animal== 'gato':
+#          print('miau miau')
+#          print('conozco ese animal')
+#          print ('fin fel programa') 
+
+# num= int(input('dime un numero : '))
+# if num<0:
+#     num= -num
+#     print('el valor absoluto es :', num)
+
+# animal =(input('dime un animal : '))
+# if animal== 'perro':
+#     print('guau guau')
+#     print('conozco ese animal')
+# else:
+#     print('no conozco ese sonido')
+#     print('no conozco ese animal')
+  
+# animal=input('dime un animal: ')
+# if animal== "gallo":
+      
+#       print('kikikiriki')
+#       print('conozco ese sonido')
+
+# else:
+#       print('no conozco ese animal')
+
+# animal = input('dime un animal: ')
+# if animal == "perro":
+#       print('guau guau')
+# elif animal == "vaca":
+#       print('muuuuu')
+# elif animal == "gato":
+#       print('miau')
+# elif animal == "gallo":
+#       print('kikikiriki')
+# else:
+#       print('no conozco ese animal')
+
+
+      
+      
+
+            
