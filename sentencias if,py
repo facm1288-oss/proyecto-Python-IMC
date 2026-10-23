@@ -48,8 +48,37 @@
 # else:
 #       print('no conozco ese animal')
 
-
+# for i in 1,2,3:
+#     print(i)
+# for i in range(5):
+#     print(i)
       
-      
+# for i in ['Fabian ', 'Alex', 'buey', 'jiraflores', 'urpiano', 'gorila ']:
+# 	print(i)
 
+for i in 'hola mundo':
+    if i=="m":
+        pass
+    else:
+        print(i, end="")
+        
+        entrada = input('hola bienvenido por favor ingresa tu edad para validar:')
+
+edad = 0 
+
+if entrada.isnumeric():
+    edad = int(entrada)
+else:
+    print('por favor introduce un numero valido:')
+    exit()
+    
+    if edad <= 0:
+        print('OOOOOOOPS,  no puede ser tu edad demasiado joven ')
+    elif edad > 100:
+        print('OOOOOOOPS,  no puede ser tu edad demasiado anciano')
+    elif edad < 18:
+        print('ooooooooooops lo siento pero eres menor de edad, NO puedes ingresar')
+    else: 
+        print('bienvenido a la pagina puedes ingresar')
+        
             
