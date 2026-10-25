@@ -56,29 +56,69 @@
 # for i in ['Fabian ', 'Alex', 'buey', 'jiraflores', 'urpiano', 'gorila ']:
 # 	print(i)
 
-for i in 'hola mundo':
-    if i=="m":
-        pass
-    else:
-        print(i, end="")
+# for i in 'hola mundo':
+#     if i=="m":
+#         pass
+#     else:
+#         print(i, end="")
         
-        entrada = input('hola bienvenido por favor ingresa tu edad para validar:')
+#         entrada = input('hola bienvenido por favor ingresa tu edad para validar:')
 
-edad = 0 
+# edad = 0 
 
-if entrada.isnumeric():
-    edad = int(entrada)
-else:
-    print('por favor introduce un numero valido:')
-    exit()
+# if entrada.isnumeric():
+#     edad = int(entrada)
+# else:
+#     print('por favor introduce un numero valido:')
+#     exit()
     
-    if edad <= 0:
-        print('OOOOOOOPS,  no puede ser tu edad demasiado joven ')
-    elif edad > 100:
-        print('OOOOOOOPS,  no puede ser tu edad demasiado anciano')
-    elif edad < 18:
-        print('ooooooooooops lo siento pero eres menor de edad, NO puedes ingresar')
-    else: 
-        print('bienvenido a la pagina puedes ingresar')
+#     if edad <= 0:
+#         print('OOOOOOOPS,  no puede ser tu edad demasiado joven ')
+#     elif edad > 100:
+#         print('OOOOOOOPS,  no puede ser tu edad demasiado anciano')
+#     elif edad < 18:
+#         print('ooooooooooops lo siento pero eres menor de edad, NO puedes ingresar')
+#     else: 
+#         print('bienvenido a la pagina puedes ingresar')
         
+def evaluar_palabra():
+    # ''''''Funcion 1: compara la longitud de un string usando len()y estructuras if-elif-else
+    palabra = input('ingresa una palabra:')
+    longitud = len(palabra)
+    print(f'la palabra ingresada tiene (longitud) letras:')
+    if 4 <= longitud <=8:
+        print('palabra correcta(tiene entre 4 y 8 letras).')
+    elif longitud <4:
+        print('hacen falta letras(tiene menos de 4 letras).')
+    else:
+        print('demasiadas letras(tienes mas de 8 letras).')
+def evaluar_cuadrante():
+    """Evalúa si x e y son positivos o negativos para determinar el cuadrante."""
+    try:
+        x = float(input('ingrsa el valor de x:'))
+        y = float(input('ingrese el valor de y:'))
+        if x == 0 and y == 0:
+            print('El punto está en el origen.')
+        elif x == 0:
+            print('El punto está sobre el eje Y.')
+        elif y == 0:
+            print('El punto está sobre el eje X.')
+        elif x > 0 and y > 0:
+            print('El punto está en el primer cuadrante.')
+        elif x < 0 and y > 0:
+            print('El punto está en el segundo cuadrante.')
+        elif x < 0 and y < 0:
+            print('El punto está en el tercer cuadrante.')
+        else:
+            print('El punto está en el cuarto cuadrante.')
+    except ValueError:
+        print('Por favor, ingresa valores numéricos válidos.')
+        return
+    if x> 0 and x > 0:
+    print(f'el punto x ')
+        
+
             
+        
+        
+    
