@@ -1,18 +1,11 @@
-entrada = input('hola bienvenido por favor ingresa tu edad para validar:')
 # Entrega parcial de la semana 5 en Python 
 
-edad = 0 
 def evaluar_palabra():
     """Función 1: Compara la longitud de un string usando len() y estructuras if-elif-else."""
     palabra = input("Ingresa una palabra: ")
     longitud = len(palabra)
     print(f"La palabra ingresada tiene {longitud} letras.")
 
-if entrada.isnumeric():
-    edad = int(entrada)
-else:
-    print('por favor introduce un numero valido:')
-    exit()
     if 4 <= longitud <= 8:
         print("Palabra correcta (tiene entre 4 y 8 letras).")
     elif longitud < 4:
@@ -45,15 +38,6 @@ if __name__ == "__main__":
     print("=== PARTE 1: VALIDACIÓN DE PALABRA ===")
     evaluar_palabra()
     
-    if edad <= 0:
-        print('OOOOOOOPS,  no puede ser tu edad demasiado joven ')
-    elif edad > 100:
-        print('OOOOOOOPS,  no puede ser tu edad demasiado anciano')
-    elif edad < 18:
-        print('ooooooooooops lo siento pero eres menor de edad, NO puedes ingresar')
-    else: 
-        print('bienvenido a la pagina puedes ingresar')
-        
     print("\n=== PARTE 2: PLANO CARTESIANO (CUADRANTES) ===")
     evaluar_cuadrante()
         
